@@ -1,9 +1,11 @@
 import React from "react";
 
 import { useAccContext } from "./Accordion";
+import { useAccItemContext } from "./AccordionItem";
 
-const AccordionContent = ({ id, children, classname }) => {
+const AccordionContent = ({ children, classname }) => {
   const { openItemId } = useAccContext();
+  const id = useAccItemContext();
   const isOpen = openItemId === id;
   return (
     <div

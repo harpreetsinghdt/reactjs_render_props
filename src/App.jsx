@@ -7,11 +7,11 @@ function App() {
       <section>
         <h2>Why work with us?</h2>
         <Accordion classname="accordion">
-          <Accordion.Item classname="accordion-item">
-            <Accordion.Title id="item1" classname="accordion-item-title">
+          <Accordion.Item id="item1" classname="accordion-item">
+            <Accordion.Title classname="accordion-item-title">
               E.l.f Cosmetics Perfect 10 Eyeshadow Palette in Nude Mood
             </Accordion.Title>
-            <Accordion.Content id="item1" classname="accordion-item-content">
+            <Accordion.Content classname="accordion-item-content">
               <article>
                 <p>
                   Swap your summer brights for deeper, earthy tones like browns,
@@ -22,12 +22,12 @@ function App() {
               </article>
             </Accordion.Content>
           </Accordion.Item>
-          <Accordion.Item classname="accordion-item">
-            <Accordion.Title id="item2" classname="accordion-item-title">
+          <Accordion.Item id="item2" classname="accordion-item">
+            <Accordion.Title classname="accordion-item-title">
               The Inkey List Bio-Active Ceramide Repairing and Plumping
               Moisturizer
             </Accordion.Title>
-            <Accordion.Content id="item2" classname="accordion-item-content">
+            <Accordion.Content classname="accordion-item-content">
               <article>
                 <p>
                   Although we love our matte foundations for their seamless
@@ -39,12 +39,12 @@ function App() {
               </article>
             </Accordion.Content>
           </Accordion.Item>
-          <Accordion.Item classname="accordion-item">
-            <Accordion.Title id="item3" classname="accordion-item-title">
+          <Accordion.Item id="item3" classname="accordion-item">
+            <Accordion.Title classname="accordion-item-title">
               6 beauty products a beauty expert says you need for fall, starting
               at $10
             </Accordion.Title>
-            <Accordion.Content id="item3" classname="accordion-item-content">
+            <Accordion.Content classname="accordion-item-content">
               <article>
                 <p>
                   Fall doesn't only require us to update our closets to
