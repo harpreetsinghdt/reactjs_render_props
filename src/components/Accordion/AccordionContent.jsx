@@ -13,7 +13,8 @@ const AccordionContent = ({ children, classname }) => {
         isOpen ? `${classname ?? ""} open` : `${classname ?? ""} close`
       }
     >
-      {children}
+      {" "}
+      {children}{" "}
     </div>
   );
 };
