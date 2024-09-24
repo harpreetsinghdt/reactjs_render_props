@@ -10,7 +10,7 @@ const SearchableList = ({ items, children }) => {
   );
   return (
     <div className="searchableList">
-      <input type="search" placeholder="Search" onChange={handleChange} />
+      <input type="search" placeholder="Search item" onChange={handleChange} />
       <ul>
         {searchresults.map((item, index) => (
           <li key={index}>{children(item)}</li>
