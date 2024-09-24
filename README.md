@@ -1,1 +1,1 @@
-# Reactjs + Compound components, Render props, Debouncing
+# Reactjs => Compound components, Render props, Debouncing
